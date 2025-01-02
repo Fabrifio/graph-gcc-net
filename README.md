@@ -19,11 +19,9 @@ The considered datasets are `ENZYMES`, `DD` and `COLLAB`, which are composed by 
 
 The datasets contains a total of 6778 graph samples, divided in 80% for training, 10% for validation and 10% for testing.
 
-ENZYMES link: [https://networkrepository.com/COLLAB.php](https://networkrepository.com/ENZYMES.php)
-
-DD link: [https://networkrepository.com/COLLAB.php](https://networkrepository.com/DD.php)
-
-COLLAB link: [https://networkrepository.com/COLLAB.php](https://networkrepository.com/COLLAB.php)
+-  ENZYMES link: [https://networkrepository.com/COLLAB.php](https://networkrepository.com/ENZYMES.php)
+-  DD link: [https://networkrepository.com/COLLAB.php](https://networkrepository.com/DD.php)
+-  COLLAB link: [https://networkrepository.com/COLLAB.php](https://networkrepository.com/COLLAB.php)
 
 # Authors
 -  Fabrizio Genilotti
