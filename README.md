@@ -13,9 +13,9 @@ NOTE: the `/datasets` folder should contain all the folders of all the datasets 
 
 # Execution steps for model training and validation
 In order to perform the training of the GNN, the execution must follow these steps:
-1.  For each dataset in `\dataset`, run the `graph_label_dataset.ipynb` notebook to compute the labels of the graphs in the datasets. The output is saved inside the relative dataset folder.
-2.  For each dataset in `\dataset`, run the `graph_to_tensor.ipynb` notebook to compute the tensors containing the edge indices of the graphs in the datasets. The output is saved inside the relative dataset folder.
-3.  For each dataset in `\dataset`, run the `node_features.ipynb` notebook to compute the tensors containing the node feature vectors of the graphs in the datasets. The output is saved inside the relative dataset folder.
+1.  For each dataset in `/dataset`, run the `graph_label_dataset.ipynb` notebook to compute the labels of the graphs in the datasets. The output is saved inside the relative dataset folder.
+2.  For each dataset in `/dataset`, run the `graph_to_tensor.ipynb` notebook to compute the tensors containing the edge indices of the graphs in the datasets. The output is saved inside the relative dataset folder.
+3.  For each dataset in `/dataset`, run the `node_features.ipynb` notebook to compute the tensors containing the node feature vectors of the graphs in the datasets. The output is saved inside the relative dataset folder.
 4.  Run the `training_gnn.ipynb` notebook to train, validate, test and save the GNN model.
 
 NOTE: for the the first three Jupyter notebooks in the enumerated list, it is needed to change the variable `dataset_name` with the name of the dataset to process.
