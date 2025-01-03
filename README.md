@@ -1,5 +1,7 @@
 # Predicting Global Clustering Coefficient with Graph Neural Network
-Graph Neural Network to predict the global clustering coefficient on graphs of different sizes and verify its accuracy with respect to the ground truth.
+In graph analytics, one of the most important graph-level metrics is the global clustering coefficient. This statistic measures the tendency of the graph to 'cluster' and can provide valuable insights in many real-world applications. The literature offers many methods with different definitions of clustering coefficient and propose different algorithms for its computation, which can either yield exact results or approximated estimates. In particular, one of the most widely studied problem is the computation of graph analytics for large graphs. In this report is proposed an approach based on a Graph Neural Network (GNN) model to compute the global clustering coefficient. The research aims to contribute to the development of a fast and reliable model for predicting the global clustering coefficient. The experimental results highlight the difficulty of this regression task, particularly the high risk of underfitting in small models when working with datasets of graphs of different sizes and domains under limited computational resources. However, this work may enable future advancements in methods for scaling GNN models for large graphs.
+
+This project aims to design and train a Graph Neural Network (GNN) for predicting, given in input an undirected graph and its node feature vectors, its global clustering coefficient. 
 
 # Repository structure
 The repository is structured in folders:
@@ -13,6 +15,8 @@ In order to perform the training of the GNN, the execution must follow these ste
 2.  For each dataset in `\dataset`, run the `graph_to_tensor.ipynb` notebook to compute the tensors containing the edge indices of the graphs in the datasets. The output is saved inside the relative dataset folder.
 3.  For each dataset in `\dataset`, run the `node_features.ipynb` notebook to compute the tensors containing the node feature vectors of the graphs in the datasets. The output is saved inside the relative dataset folder.
 4.  Run the `training_gnn.ipynb` notebook to train, validate, test and save the GNN model.
+
+NOTE: for the the first three Jupyter notebooks in the enumerated list, it is needed to change the variable `dataset_name` with the name of the dataset to process.
 
 # Datasets
 The considered datasets are `ENZYMES`, `DD` and `COLLAB`, which are composed by graphs coming from different domains.
