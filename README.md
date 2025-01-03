@@ -9,7 +9,7 @@ The repository is structured in folders:
 -  The `/model` folder contains the trained model.
 -  The `/datasets` folder contains the all the datasets folders.
 
-NOTE: the `/datasets` folder should contain all the folders of all the datasets considered for the experiment. 
+NOTE: the `/datasets` folder should include all the folders extracted from the `.zip` files of the datasets considered for the experiment.
 
 # Execution steps for model training and validation
 In order to perform the training of the GNN, the execution must follow these steps:
