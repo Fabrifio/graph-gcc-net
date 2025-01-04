@@ -7,7 +7,7 @@ This project aims to design and train a Graph Neural Network (GNN) for predictin
 The repository is structured in folders:
 -  The `root` contains all the Jupyter notebooks needed for preparing the dataset and training the GNN model.
 -  The `/model` folder contains the trained model.
--  The `/datasets` folder contains the all the datasets folders.
+-  The `/datasets` folder contains the all the datasets folders and the `/test_data` folder where is stored/saved the data for replicating the model test.
 
 NOTE: the `/datasets` folder should include all the folders extracted from the `.zip` files of the datasets considered for the experiment.
 
@@ -17,6 +17,7 @@ In order to perform the training of the GNN, the execution must follow these ste
 2.  For each dataset in `/dataset`, run the `graph_to_tensor.ipynb` notebook to compute the tensors containing the edge indices of the graphs in the datasets. The output is saved inside the relative dataset folder.
 3.  For each dataset in `/dataset`, run the `node_features.ipynb` notebook to compute the tensors containing the node feature vectors of the graphs in the datasets. The output is saved inside the relative dataset folder.
 4.  Run the `training_gnn.ipynb` notebook to train, validate, test and save the GNN model.
+5.  Run the `test_gnn.ipynb` notebook to replicate the test.
 
 NOTE: for the the first three Jupyter notebooks in the enumerated list, it is needed to change the variable `dataset_name` with the name of the dataset to process.
 
