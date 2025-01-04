@@ -29,6 +29,8 @@ The datasets contains a total of 6778 graph samples, divided in 80% for training
 -  DD link: [https://networkrepository.com/DD.php](https://networkrepository.com/DD.php)
 -  COLLAB link: [https://networkrepository.com/COLLAB.php](https://networkrepository.com/COLLAB.php)
 
+It is possible to download the precomputed labels, node feature vectors and graph tensors in the following link: [https://drive.google.com/drive/folders/1AT7ghxuobigcdKEIoQontgZlBwdDqM9u?usp=sharing](https://drive.google.com/drive/folders/1AT7ghxuobigcdKEIoQontgZlBwdDqM9u?usp=sharing)
+
 # Authors
 -  Fabrizio Genilotti
 -  Federico Pivotto
